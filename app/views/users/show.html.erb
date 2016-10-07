@@ -1,0 +1,7 @@
+<h1 align="center">Welcome to <%= @user.email %>'s page</h1>
+
+ <%#= will_paginate @user_posts %>
+	
+ <%= render "posts/post", obj: @user.posts %>
+
+ <%#= will_paginate @user_posts %>
